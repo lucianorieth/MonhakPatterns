@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonhakPatterns", "MonhakPatterns\MonhakPatterns.csproj", "{D5FBC637-A2D6-4696-B1E8-4A205A6EB072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonhakPatterns.Tests", "MonhakPatterns.Tests\MonhakPatterns.Tests.csproj", "{B203155A-3F94-4F51-AF61-FD464F22C15D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5FBC637-A2D6-4696-B1E8-4A205A6EB072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FBC637-A2D6-4696-B1E8-4A205A6EB072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FBC637-A2D6-4696-B1E8-4A205A6EB072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FBC637-A2D6-4696-B1E8-4A205A6EB072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B203155A-3F94-4F51-AF61-FD464F22C15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B203155A-3F94-4F51-AF61-FD464F22C15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B203155A-3F94-4F51-AF61-FD464F22C15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B203155A-3F94-4F51-AF61-FD464F22C15D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
